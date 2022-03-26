@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="ALIS.Centres"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ALIS"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button Content="Accueil" CornerRadius="15" Background="#FF53D442" Click="Acceuil_Click" Margin="36,0,0,0" VerticalAlignment="Top" Height="113" Width="171" FontSize="36" FontWeight="Bold"/>
+        <Button x:Name="Retour" CornerRadius="15" Content="Retour" Background="#FFBFE412" Click="Retour_Click" Margin="36,564,0,0" VerticalAlignment="Top" Height="113" Width="171" FontSize="36" FontWeight="Bold"/>
+        <Button x:Name="Retour_Copy" CornerRadius="15" Content="Retour" Background="#FFBFE412" Click="Retour_Click" Margin="1071,13,0,0" VerticalAlignment="Top" Height="113" Width="171" FontSize="36" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Centres d'intérêts" VerticalAlignment="Top" Height="119" Width="696" FontSize="67" FontWeight="Bold" TextAlignment="Center" Margin="303,0,0,0"/>
+        <Button x:Name="Supprimer" CornerRadius="15" Content="Supprimer" Margin="688,593,0,0" VerticalAlignment="Top" Height="60" Width="171" FontSize="30" RenderTransformOrigin="-0.202,0.479" BorderBrush="Red" Foreground="Red" FontWeight="Bold"/>
+        <Button x:Name="Ajouter" CornerRadius="15" Content="Ajouter" Margin="453,593,0,0" VerticalAlignment="Top" Height="60" Width="171" FontSize="30" RenderTransformOrigin="-0.202,0.479" BorderBrush="Green" Foreground="Green" FontWeight="Bold"/>
+    </Grid>
+</Page>
